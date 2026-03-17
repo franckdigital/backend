@@ -100,7 +100,7 @@ else:
             },
         },
     }
-
+#
 # WinDev legacy database (read-only, raw SQL only)
 WINDEV_DB_NAME = config('WINDEV_DB_NAME', default='')
 if WINDEV_DB_NAME:
